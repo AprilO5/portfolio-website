@@ -1,0 +1,71 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F7FB;
+    color: #1F2937;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #4F46E5;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    color: #6B7280;
+}
+
+/* Projects Section */
+.projects {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Project Cards */
+.project-card {
+    background: white;
+    padding: 25px;
+    width: 260px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+.project-card h3 {
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    color: #6B7280;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #9CA3AF;
+    font-size: 14px;
+}
