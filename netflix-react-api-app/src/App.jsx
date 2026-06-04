@@ -1,7 +1,7 @@
 const { useEffect, useMemo, useState } = React;
 
 const API_BASE = "https://api.tvmaze.com";
-const DEFAULT_QUERY = "netflix";
+const DEFAULT_QUERY = "Stranger Things";
 const fallbackImage =
   "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=900&q=80";
 
@@ -174,7 +174,7 @@ function SearchView({ savedShows, onToggleSave }) {
         {status === "loading" && <SkeletonGrid />}
         {status === "error" && <div className="error-state">{error}</div>}
         {status === "success" && filteredShows.length === 0 && (
-          <div className="empty-state">No matches yet. Try a broader search like comedy, drama, or netflix.</div>
+          <div className="empty-state">No matches yet. Try a broader search like comedy, drama, or adventure.</div>
         )}
         {status === "success" && filteredShows.length > 0 && (
           <ShowGrid
@@ -347,7 +347,7 @@ function AboutView() {
       <section className="about-section">
         <h2>API Used</h2>
         <ul>
-          <li>Search endpoint: https://api.tvmaze.com/search/shows?q=netflix</li>
+          <li>Search endpoint: https://api.tvmaze.com/search/shows?q=Stranger%20Things</li>
           <li>Data displayed: title, poster, summary, network, genres, premiere date, status, and rating.</li>
           <li>States handled: loading, success, empty search results, and API errors.</li>
         </ul>

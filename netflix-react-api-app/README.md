@@ -15,7 +15,7 @@ No installation is required because the app loads React from an ES module CDN.
 The app uses the public TVmaze API:
 
 - Search endpoint: `https://api.tvmaze.com/search/shows?q={query}`
-- Example endpoint: `https://api.tvmaze.com/search/shows?q=netflix`
+- Example endpoint: `https://api.tvmaze.com/search/shows?q=Stranger%20Things`
 
 The original research target was a Netflix API listing, but that listing points to Netflix internal/open-source services rather than a simple browser-friendly public catalog endpoint. TVmaze was selected because it is free, public, and does not require an API key.
 
