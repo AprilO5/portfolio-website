@@ -51,7 +51,7 @@ function Header({ route, setRoute, savedCount }) {
     <header className="site-header">
       <button className="brand" onClick={() => setRoute("search")} aria-label="Go to search">
         <span className="brand-mark">S</span>
-        <span>StreamScout</span>
+        <span>StreamFinder</span>
       </button>
       <nav className="nav-tabs" aria-label="Primary views">
         {tabs.map(([id, label]) => (
@@ -325,7 +325,7 @@ function AboutView() {
       <section className="about-section">
         <h2>Project Notes</h2>
         <p>
-          StreamScout is a Netflix-inspired title discovery app. The Netflix API listing found during
+          StreamFinder is a Netflix-inspired title discovery app. The Netflix API listing found during
           research points to internal/open-source Netflix services, so this project uses TVmaze instead:
           a public entertainment API that works in the browser without an API key.
         </p>

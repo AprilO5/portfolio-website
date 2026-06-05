@@ -1,6 +1,6 @@
-# StreamScout
+# StreamFinder
 
-StreamScout is a Netflix-inspired React application that helps users search TV and streaming titles, compare details, and save a watchlist.
+StreamFinder is a Netflix-inspired React application that helps users search TV and streaming titles, compare details, and save a watchlist.
 
 ## Setup Instructions
 
