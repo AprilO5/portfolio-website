@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1000" viewBox="0 0 1800 1000">
+  <defs>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto">
+      <path d="M0,0 L14,7 L0,14 Z" fill="#d63232"/>
+    </marker>
+  </defs>
+
+  <rect width="1800" height="1000" fill="#f7f7f7"/>
+  <text x="900" y="95" text-anchor="middle" fill="#111111"
+        font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">
+    How TV Show Data Reaches StreamFinder
+  </text>
+  <text x="900" y="145" text-anchor="middle" fill="#555555"
+        font-family="Arial, Helvetica, sans-serif" font-size="24">
+    A simplified view of TVmaze's community-maintained data
+  </text>
+
+  <text x="245" y="225" text-anchor="middle" fill="#555555"
+        font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">
+    OFFICIAL INFORMATION SOURCES
+  </text>
+
+  <g filter="url(#shadow)">
+    <circle cx="135" cy="350" r="84" fill="#111111"/>
+    <text x="135" y="362" text-anchor="middle" fill="#e50914"
+          font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="800">
+      NETFLIX
+    </text>
+
+    <circle cx="355" cy="350" r="84" fill="#111111"/>
+    <text x="355" y="365" text-anchor="middle" fill="#ffffff"
+          font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="800">
+      HBO
+    </text>
+
+    <circle cx="245" cy="585" r="84" fill="#ffffff" stroke="#333333" stroke-width="5"/>
+    <text x="245" y="574" text-anchor="middle" fill="#222222"
+          font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">
+      OTHER
+    </text>
+    <text x="245" y="608" text-anchor="middle" fill="#555555"
+          font-family="Arial, Helvetica, sans-serif" font-size="20">
+      official sources
+    </text>
+  </g>
+
+  <path d="M220 350 H500 V450 H590" fill="none" stroke="#d63232" stroke-width="9"
+        stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+  <path d="M440 350 H500" fill="none" stroke="#d63232" stroke-width="9"
+        stroke-linecap="round"/>
+  <path d="M330 585 H500 V450" fill="none" stroke="#d63232" stroke-width="9"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g filter="url(#shadow)">
+    <rect x="630" y="330" width="320" height="245" rx="18" fill="#ffffff"
+          stroke="#222222" stroke-width="5"/>
+    <circle cx="790" cy="410" r="45" fill="#d63232"/>
+    <circle cx="740" cy="480" r="31" fill="#333333"/>
+    <circle cx="840" cy="480" r="31" fill="#333333"/>
+    <text x="790" y="540" text-anchor="middle" fill="#111111"
+          font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700">
+      Human Contributors
+    </text>
+  </g>
+  <text x="790" y="620" text-anchor="middle" fill="#555555"
+        font-family="Arial, Helvetica, sans-serif" font-size="21">
+    Review and organize show information
+  </text>
+
+  <path d="M980 450 H1065" stroke="#d63232" stroke-width="10" stroke-linecap="round"
+        marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <circle cx="1215" cy="450" r="130" fill="#ffffff" stroke="#4d9690" stroke-width="13"/>
+    <rect x="1148" y="380" width="134" height="82" rx="11" fill="none"
+          stroke="#4d9690" stroke-width="10"/>
+    <path d="M1172 415 H1258 M1172 439 H1258" stroke="#4d9690" stroke-width="7"
+          stroke-linecap="round"/>
+    <text x="1215" y="525" text-anchor="middle" fill="#285e5a"
+          font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">
+      TVmaze
+    </text>
+    <text x="1215" y="559" text-anchor="middle" fill="#555555"
+          font-family="Arial, Helvetica, sans-serif" font-size="21">
+      Data API
+    </text>
+  </g>
+
+  <path d="M1370 450 H1450" stroke="#d63232" stroke-width="10" stroke-linecap="round"
+        marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <circle cx="1600" cy="450" r="130" fill="#d63232"/>
+    <text x="1600" y="500" text-anchor="middle" fill="#ffffff"
+          font-family="Arial, Helvetica, sans-serif" font-size="140" font-weight="800">
+      A
+    </text>
+  </g>
+  <text x="1600" y="620" text-anchor="middle" fill="#111111"
+        font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">
+    StreamFinder App
+  </text>
+
+  <rect x="185" y="765" width="1430" height="2" fill="#d63232"/>
+  <text x="900" y="830" text-anchor="middle" fill="#333333"
+        font-family="Arial, Helvetica, sans-serif" font-size="25">
+    Contributors organize information from official networks, streaming services, and show websites.
+  </text>
+  <text x="900" y="875" text-anchor="middle" fill="#555555"
+        font-family="Arial, Helvetica, sans-serif" font-size="23">
+    StreamFinder then requests that organized TV show data from the TVmaze API.
+  </text>
+</svg>
